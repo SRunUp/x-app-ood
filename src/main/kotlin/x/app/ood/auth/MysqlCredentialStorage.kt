@@ -1,7 +1,5 @@
 package x.app.ood.auth
 
 class MysqlCredentialStorage : CredentialStorage {
-    override fun getPasswordByAppId(appId: String): String {
-        TODO("Not yet implemented")
-    }
+    override fun getPasswordByAppId(appId: String): String = TODO()
 }

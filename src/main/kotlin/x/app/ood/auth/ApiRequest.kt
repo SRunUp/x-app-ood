@@ -12,13 +12,9 @@ class ApiRequest(val baseUrl: String, val token: String, val appId: String, val 
     companion object {
         /**
          * 将 token、AppId、时间戳拼接到 URL 中，形成新的 URL*/
-        fun createFormFullUrl(url: String): ApiRequest {
-            TODO()
+        fun createFormFullUrl(url: String): ApiRequest = TODO()
 
-        }
-
-        fun buildFromUrl(url: String): ApiRequest {
-            TODO()
-        }
+        fun buildFromUrl(url: String): ApiRequest = TODO()
     }
+
 }

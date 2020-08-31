@@ -20,9 +20,7 @@ class AuthToken(token: String, creationTime: Long) {
 
     /**
      * 验证 Token 是否匹配*/
-    fun match(token: AuthToken): Boolean {
-        TODO()
-    }
+    fun match(token: AuthToken): Boolean = TODO()
 
 
     companion object {
@@ -30,13 +28,8 @@ class AuthToken(token: String, creationTime: Long) {
 
         /**
          * 把 URL、AppId、密码、时间戳拼接为一个字符串*/
-        fun create(baseUrl: String, creationTime: Long, params: Map<String, String>): AuthToken {
-            TODO()
+        fun create(baseUrl: String, creationTime: Long, params: Map<String, String>): AuthToken = TODO()
 
-        }
-
-        fun generate(originalUrl: String, appId: String, password: String, timestamp: Long): AuthToken {
-            TODO()
-        }
+        fun generate(originalUrl: String, appId: String, password: String, timestamp: Long): AuthToken = TODO()
     }
 }
