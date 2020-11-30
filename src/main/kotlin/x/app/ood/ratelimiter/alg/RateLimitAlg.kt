@@ -47,7 +47,7 @@ class RateLimitAlg {
                 } finally {
                     lock.unlock()
                 }
-            }else{
+            } else {
                 throw InternalErrorException("tryAcquire() wait lock too long $TRY_LOCK_TIMEOUT ms")
             }
 
