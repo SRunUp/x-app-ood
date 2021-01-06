@@ -3,11 +3,13 @@ package x.app.ood
 import org.springframework.boot.CommandLineRunner
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
+import org.springframework.context.ApplicationContext
 
 @SpringBootApplication
 class OodApplication : CommandLineRunner {
     override fun run(vararg args: String?) {
         println("ood lab started.")
+
     }
 }
 

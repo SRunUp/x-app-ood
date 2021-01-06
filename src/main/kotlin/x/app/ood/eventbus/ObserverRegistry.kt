@@ -17,7 +17,6 @@ class ObserverRegistry {
     private val registry = ConcurrentHashMap<Class<*>, CopyOnWriteArraySet<ObserverAction>>(16)
 
     fun register(observer: Any) {
-
         val actions = findAllObserverActions(observer)
 
         for ((eventType, eventActions) in actions) {
